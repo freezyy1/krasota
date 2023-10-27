@@ -1,7 +1,12 @@
 import React, { useEffect, useState } from 'react';
-import logo from './logo.svg';
 import './App.css';
-import {Booking} from './components/Booking'
+import {Booking} from './components/Booking';
+import {Header} from "./components/Header";
+import {Feedback} from "./components/Feedback";
+import {Footer} from "./components/Footer";
+import {AboutUs} from "./components/AboutUs";
+import {Services} from "./components/Services";
+import {CompanyAdvantages} from "./components/CompanyAdvantages";
 
 function App() {
   const callBackendAPI = async () => {
@@ -25,25 +30,16 @@ function App() {
 
   return (
       <div className="App">
-        <Booking></Booking>
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-              className="App-link"
-              href="https://reactjs.org"
-              target="_blank"
-              rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
+          <Header></Header>
+          <AboutUs></AboutUs>
+          <Services></Services>
+          <Feedback/>
+          <Booking></Booking>
+          <CompanyAdvantages></CompanyAdvantages>
+          <Footer/>
 
         {/* вывод данных, полученных с сервера Express */}
         <div>
-
           {state}
         </div>
       </div>
