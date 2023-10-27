@@ -1,0 +1,28 @@
+.feedback{
+  margin: 180px 0;
+  &__title{
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  &__inner{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+  }
+  &__item{
+    width: 450px;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    img{
+      height: 120px;
+      border-radius: 100%;
+    }
+  }
+  &__box-title{
+    width: 200px;
+    border-bottom: 2px solid #f5914f;
+  }
+}
