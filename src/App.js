@@ -2,6 +2,9 @@ import React, { useEffect, useState } from 'react';
 import logo from './logo.svg';
 import './App.css';
 import {Booking} from './components/Booking'
+import {Services} from './components/Services'
+import {CompanyAdvantages} from './components/CompanyAdvantages'
+import {AboutUs} from "./components/AboutUs";
 
 function App() {
   const callBackendAPI = async () => {
@@ -26,6 +29,9 @@ function App() {
   return (
       <div className="App">
         <Booking></Booking>
+        <Services></Services>
+        <CompanyAdvantages></CompanyAdvantages>
+        <AboutUs></AboutUs>
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
           <p>

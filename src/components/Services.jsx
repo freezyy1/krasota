@@ -1,0 +1,71 @@
+import React from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+const Services = () => {
+    const img = "kot.jpg"
+    const services = [
+        {
+            id: 1,
+            title: "Услуга 1",
+            description: "Описание услуги 1",
+            image: img,
+        },
+        {
+            id: 2,
+            title: "Услуга 2",
+            description: "Описание услуги 2",
+            image: img,
+        },
+        {
+            id: 3,
+            title: "Услуга 3",
+            description: "Описание услуги 3",
+            image:img,
+        },
+        {
+            id: 4,
+            title: "Услуга 4",
+            description: "Описание услуги 4",
+            image: img,
+        },
+        {
+            id: 5,
+            title: "Услуга 5",
+            description: "Описание услуги 5",
+            image: img,
+        },
+        {
+            id: 6,
+            title: "Услуга 6",
+            description: "Описание услуги 6",
+            image: img,
+        },
+    ];
+    return (
+        <div className="container text-center">
+            <h1>Наши услуги</h1>
+            <div className="row">
+                {services.map((service) => (
+                    <div key={service.id} className="col-lg-4 col-md-6 mb-4">
+                        <div className="card border-0">
+                            <img
+                                src={service.image}
+                                className="card-img-top mx-auto"
+                                alt={service.title}
+                                style={{ width: '80%', height: 'auto' }}
+                            />
+                            <div className="card-body text-center">
+                                <h2 className="card-title font-weight-bold">
+                                    {service.title}
+                                </h2>
+                                <p className="card-text">{service.description}</p>
+                            </div>
+                        </div>
+                    </div>
+                ))}
+            </div>
+        </div>
+    );
+};
+
+export { Services };
