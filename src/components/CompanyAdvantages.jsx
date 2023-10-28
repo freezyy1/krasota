@@ -9,7 +9,7 @@ const CompanyAdvantages = () => {
                 <div className="col-md-3 d-flex align-items-center mb-4">
                     <img src={kot} alt="Медицинское образование" style={{ maxWidth: '150px', marginLeft: "auto" }} />
                 </div>
-                <div className="col-md-9">
+                <div className="col-md-9" style={{textAlign:"left", paddingLeft:"1px"}}>
                     <h2 className="font-weight-bold fs-3">Медицинское образование</h2>
                     <p>
                         Потому что косметология – это наука не только о красоте, но и, прежде всего, о здоровье кожи.

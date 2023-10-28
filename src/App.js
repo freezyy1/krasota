@@ -7,6 +7,7 @@ import {Footer} from "./components/Footer";
 import {AboutUs} from "./components/AboutUs";
 import {Services} from "./components/Services";
 import {CompanyAdvantages} from "./components/CompanyAdvantages";
+import {Works} from "./components/Works";
 
 function App() {
   const callBackendAPI = async () => {
@@ -36,6 +37,7 @@ function App() {
           <Feedback/>
           <Booking></Booking>
           <CompanyAdvantages></CompanyAdvantages>
+          <Works></Works>
           <Footer/>
 
         {/* вывод данных, полученных с сервера Express */}
