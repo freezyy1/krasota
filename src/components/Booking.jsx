@@ -3,7 +3,7 @@ import { Parallax } from 'react-parallax';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import parallax from './../images/kot.jpg';
 import './../styles/booking.scss';
-
+//dd
 const Booking = () => {
     const containerStyle = {
         height: '560px',
