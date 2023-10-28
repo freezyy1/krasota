@@ -1,6 +1,7 @@
 .header{
   position: absolute;
   width: 100%;
+
   &__inner{
     margin-top: 10px;
     display: flex;
@@ -89,10 +90,13 @@
     text-align: center;
     border: none;
     padding: 15px 50px;
-    width: 250px;
     text-decoration: none;
     border-radius: 5px;
     color: white;
+    transition: background-color 0.3s ease;
+    &:hover {
+      background: #e8803e;
+    }
   }
 }
 

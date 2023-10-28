@@ -1,13 +1,14 @@
 import React from 'react';
 import kot from './../images/kot.jpg';
+import '../../../krasota213123/src/styles/aboutUs.scss';
 
 const AboutUs = () => {
     return (
-        <div className="container mt-5">
+        <section className="container mart">
             <div className="row">
                 <div className="col-md-6 ml-4 d-flex  justify-content-center flex-column" style={{ textAlign: 'left' }}>
-                    <h2 className="font-weight-bold">О нашей компании</h2>
-                    <p>
+                    <h2 className="display-4 fw-normal txt_media">О нашей компании</h2>
+                    <p className="fs-4 txt_media">
                         Привет, я Света! Косметолог эстетист с медицинским образованием. В индустрии красоты с 2010 года. В своей работе использую не только проверенные временем методики, но и инновационные технологии для поддержания красоты и здоровья вашей кожи.
                     </p>
                 </div>
@@ -28,7 +29,7 @@ const AboutUs = () => {
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
     );
 };
 

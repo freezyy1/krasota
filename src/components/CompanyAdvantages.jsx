@@ -4,7 +4,7 @@ import kot from './../images/kot.jpg';
 const CompanyAdvantages = () => {
     return (
         <div className="container text-center">
-            <h1 className="font-weight-bold mb-5 ">Преимущества компании</h1>
+            <h1 className="display-4 fw-medium" style={{ marginBottom: '50px'}}>Преимущества компании</h1>
             <div className="row">
                 <div className="col-md-3 d-flex align-items-center mb-4">
                     <img src={kot} alt="Медицинское образование" style={{ maxWidth: '150px', marginLeft: "auto" }} />

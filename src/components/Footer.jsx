@@ -6,16 +6,16 @@ const Footer = () => {
     return (
         <div>
             <footer className="footer">
-                <div className="container">
+                <div className="container htmk">
                     <div className="footer__inner">
-                        <h5 className="footer__title">
+                        <h5 className="footer__title fs-4">
                             НАШИ КОНТАКТЫ
                         </h5>
-                        <a href="tel:+7 982 914-47-77" className="footer__tele">+7 982 914-47-77</a>
-                        <a href="mailto:hello@company.com" className="footer__mail">hello@company.com</a>
+                        <a href="tel:+7 982 914-47-77" className="footer__tele fs-2">+7 982 914-47-77</a>
+                        <a href="mailto:hello@company.com" className="footer__mail fs-2">hello@company.com</a>
 
                         <div className="footer__social">
-                            <h5 className="footer__social-title">Мы в социальных сетях:</h5>
+                            <h5 className="footer__social-title fs-4">Мы в социальных сетях:</h5>
 
                             <div className="footer__box">
                                 <a href="" className="footer__social-item">
@@ -37,7 +37,7 @@ const Footer = () => {
                 </div>
                 <div className="footer__copyright">
                     <img src={logo} alt="Logo" className="footer__copyright-logo"/>
-                    Copyright © 2023 by Beauty
+                    <p className="fs-5">Copyright © 2023 by Beauty</p>
                 </div>
             </footer>
         </div>
