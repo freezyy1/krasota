@@ -22,7 +22,7 @@
   }
   &__box{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     margin-bottom: 100px;
   }
   &__social-title{
@@ -35,7 +35,6 @@
     width: 60px;
     height: 60px;
     border-radius: 100px;
-    margin: 9px;
     svg{
       fill: white;
       width: 35px;

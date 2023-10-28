@@ -13,7 +13,6 @@
   }
   &__item{
     width: 450px;
-    height: 300px;
     display: flex;
     justify-content: space-between;
     gap: 30px;
@@ -25,5 +24,23 @@
   &__box-title{
     width: 200px;
     border-bottom: 2px solid #f5914f;
+  }
+}
+
+@media (max-width: 450px){
+  .feedback{
+    &__inner{
+      gap: 40px;
+    }
+    &__item{
+      flex-direction: column;
+      img{
+        width: 100px;
+        margin: 0 auto;
+      }
+    }
+    &__text{
+      text-align: justify;
+    }
   }
 }

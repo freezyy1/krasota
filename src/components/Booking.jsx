@@ -2,7 +2,7 @@ import React from 'react';
 import { Parallax } from 'react-parallax';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import parallax from './../images/kot.jpg';
-import '../../../krasota213123/src/styles/booking.scss';
+import './../styles/booking.scss';
 
 const Booking = () => {
     const containerStyle = {

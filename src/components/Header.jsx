@@ -51,7 +51,7 @@ const Header = () => {
             <section className="top">
                 <div className="container">
                     <div className="top__content">
-                        <h1 className="top__title display-1">Art-Beauty Satyukova</h1>
+                        <h1 className="top__title display-1 text-align-center">Art-Beauty Satyukova</h1>
                         <p className="top__text display-3">Красота как искусство.</p>
                         <a href="" className="top__btn fs-3">Онлайн запись</a>
                     </div>

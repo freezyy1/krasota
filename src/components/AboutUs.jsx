@@ -1,6 +1,6 @@
 import React from 'react';
 import kot from './../images/kot.jpg';
-import '../../../krasota213123/src/styles/aboutUs.scss';
+import './../styles/aboutUs.scss';
 
 const AboutUs = () => {
     return (

@@ -1,13 +1,12 @@
 .header{
   position: absolute;
   width: 100%;
-
   &__inner{
-    margin-top: 10px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 80px;
+    display: grid;
+    grid-template-columns: 1fr auto 1fr; /* Левый блок, Центральный блок (логотип), Правый блок */
+    align-items: center; /* Центрирование по вертикали */
+    justify-items: center;
+    height: 80px; /* Укажите высоту вашего header */
   }
   .menu{
     margin-top: 10px;
@@ -31,7 +30,6 @@
     }
   }
   .logo{
-    margin: 0 auto;
     width: 150px;
     height: 100px;
   }
@@ -100,6 +98,10 @@
   }
 }
 
+.display-1{
+  text-align: center !important;
+}
+
 $size: 80px;
 $speed: 3s;
 $peakopacity:0.7;
@@ -162,6 +164,7 @@ $peakopacity:0.7;
   }
 
   .header__inner{
+    display: flex;
     flex-direction: column;
   }
 
