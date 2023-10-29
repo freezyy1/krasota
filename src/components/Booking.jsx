@@ -25,9 +25,10 @@ const Booking = () => {
             <section className="booking-container">
                 <Parallax
                     bgImage={parallax}
-                    strength={500}
+                    strength={300}
                     style={containerStyle}
                     bgImageAlt="Parallax Image"
+                    bgClassName = "pimage"
                     renderLayer={(percentage) => (
                         <div
                             style={{
@@ -35,6 +36,7 @@ const Booking = () => {
                                 width: '100%',
                                 height: '100%',
                                 background: `rgba(107, 107, 107, ${0.53 + percentage * 0.3})`,
+                                objectFit: 'cover',
                             }}
                         />
                     )}

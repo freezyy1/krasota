@@ -8,6 +8,7 @@ import {AboutUs} from "./components/AboutUs";
 import {Services} from "./components/Services";
 import {CompanyAdvantages} from "./components/CompanyAdvantages";
 import {Works} from "./components/Works";
+import {AdvantagePlus} from "./components/AdvantagePlus";
 
 function App() {
   const callBackendAPI = async () => {
@@ -36,7 +37,7 @@ function App() {
           <Services></Services>
           <Feedback/>
           <Booking></Booking>
-          <CompanyAdvantages></CompanyAdvantages>
+          <AdvantagePlus></AdvantagePlus>
           <Works></Works>
           <Footer/>
 

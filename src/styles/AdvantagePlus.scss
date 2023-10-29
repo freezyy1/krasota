@@ -1,0 +1,93 @@
+.timer-section{
+  min-height: 100vh;
+  &__title{
+    text-align: center;
+  }
+  .timer {
+    position: relative;
+    max-width: 750px;
+    margin: auto;
+  }
+  .timer::before{
+      position: absolute;
+      height: 100%;
+      width: 2px;
+      background-color: #f5914f;
+      left: 50%;
+      transform: translateX(-50%);
+  }
+  .timer .step{
+    width: 50%;
+    padding: 20px 15px;
+    position: relative;
+    background-color: #F2F2F2;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, .04);
+    }
+ .timer .step:not(:first-child),
+ .timer .step:not(:last-child) {
+    margin: 90px 0 60px 0;
+  }
+ .timer .step:nth-child(odd) {
+    transform: translateX(100%);
+    border-left: 2px solid lightblue;
+    border-radius: 0 3px 3px 0;
+  }
+ .timer .step:nth-child(even) {
+    border-right: 2px solid lightsalmon;
+    border-radius: 3px 0 0 3px;
+  }
+ .timer .step > span {
+    position: absolute;
+    height: 50px;
+    width: 55px;
+    color: #333;
+    background-color: #F2F2F2;
+    text-align: center;
+    line-height: 22px;
+    border-radius: 3px;
+    font-size: .8rem;
+   svg{
+     fill: #e8803e;
+     width: 30px;
+     height: 45px;
+   }
+  }
+ .timer .step:nth-child(odd) > span {
+   top: -46px;
+   left: -28px;
+    border: 2px solid lightblue;
+  }
+ .timer .step:nth-child(even) > span {
+    top: -46px;
+    right: -28px;
+    border: 2px solid lightsalmon;
+  }
+  .timer-section .timer .step h3 {
+    margin-bottom: 15px;
+  }
+  .timer-section .timer .step p {
+    color: #555;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .timer-section .timer .step {
+    width: 100%;
+    text-align: center;
+    transform: translateX(0%);
+    border-radius: 3px ;
+  }
+  .timer-section .timer .step:nth-child(odd) {
+    transform: translateX(0%);
+    border: none;
+    border-top: 2px solid lightblue;
+  }
+  .timer-section .timer .step:nth-child(even) {
+    border: none;
+    border-top: 2px solid lightsalmon;
+  }
+  .timer-section .timer .step span {
+    left: 50% !important;
+    transform: translateX(-50%);
+  }
+}
