@@ -1,6 +1,8 @@
 import React from 'react';
 import { Parallax } from 'react-parallax';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import parallax from './../images/kot.jpg';
+import './../styles/booking.scss';
 
 const Booking = () => {
     const containerStyle = {
@@ -10,33 +12,53 @@ const Booking = () => {
         justifyContent: 'center',
     };
 
+    const textStyle = {
+        color: 'white',
+    };
+
     return (
-        <div className="booking-container">
-            <Parallax
-                bgImage="kot.jpg" // Укажите путь к вашей фотографии
-                strength={500} // Измените это значение для настройки силы параллакс-эффекта
-                style={containerStyle}
-            >
-                <div className="container">
-                    <div className="row">
-                        <div className="col-md-6 offset-md-3 text-center booking-content">
-                            <h1 className="text-center fs-2" style={{ fontSize: '24px', marginBottom: '20px' }}>Онлайн запись</h1>
-                            <p className="text-center fs-2" style={{ marginBottom: '20px' }}>
-                                Запишитесь прямо сейчас и получите возможность выбрать оптимальное для вас время записи
-                            </p>
-                            <a
-                                href="https://t.me/your-telegram-link"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                className="btn btn-primary btn-lg"
-                                style={{ backgroundColor: '#F5914F', fontSize: '18px' }}
-                            >
-                                Записаться в Telegram
-                            </a>
+        <div>
+            <section className="booking-container">
+                <Parallax
+                    bgImage={parallax}
+                    strength={300}
+                    style={containerStyle}
+                    bgImageAlt="Parallax Image"
+                    bgClassName = "pimage"
+
+                    renderLayer={(percentage) => (
+                        <div
+                            style={{
+                                position: 'absolute',
+                                width: '100%',
+                                height: '100%',
+                                background: `rgba(107, 107, 107, ${0.53 + percentage * 0.3})`,
+                                objectFit: 'cover',
+                            }}
+                        />
+                    )}
+                >
+                    <div className="container">
+                        <div className="row">
+                            <div className="col-md-6 offset-md-3 text-center booking-content">
+                                <p className="text-center fs-1" style={{ fontSize: '24px', marginBottom: '20px', ...textStyle }}>Онлайн запись</p>
+                                <p className="text-center fs-2 mb-5" style={{ marginBottom: '20px', ...textStyle }}>
+                                    Запишитесь прямо сейчас и получите возможность выбрать оптимальное для вас время записи
+                                </p>
+                                <a
+                                    href="https://t.me/your-telegram-link"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="or_btn fs-4"
+                                    style={{ ...textStyle }}
+                                >
+                                    Записаться в Telegram
+                                </a>
+                            </div>
                         </div>
                     </div>
-                </div>
-            </Parallax>
+                </Parallax>
+            </section>
         </div>
     );
 };

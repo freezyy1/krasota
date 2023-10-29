@@ -1,57 +1,15 @@
-import React, { useEffect, useState } from 'react';
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
-import {Booking} from './components/Booking'
-import {Services} from './components/Services'
-import {CompanyAdvantages} from './components/CompanyAdvantages'
-import {AboutUs} from "./components/AboutUs";
+import {Header} from "./components/Header";
+import {MainContent} from "./components/MainContent";
+import {Footer} from "./components/Footer";
 
 function App() {
-  const callBackendAPI = async () => {
-    const response = await fetch('/express_backend');
-    const body = await response.json();
-
-    if (response.status !== 200) {
-      throw Error(body.message)
-    }
-    return body;
-  };
-
-  const [state, setState] = useState(null);
-
-  // получение GET маршрута с сервера Express, который соответствует GET из server.js
-  useEffect(() => {
-    callBackendAPI()
-        .then(res => setState(res.express))
-        .catch(err => console.log(err));
-  }, [])
-
   return (
       <div className="App">
-        <Booking></Booking>
-        <Services></Services>
-        <CompanyAdvantages></CompanyAdvantages>
-        <AboutUs></AboutUs>
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-              className="App-link"
-              href="https://reactjs.org"
-              target="_blank"
-              rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
-
-        {/* вывод данных, полученных с сервера Express */}
-        <div>
-
-          {state}
-        </div>
+          <Header></Header>
+          <MainContent></MainContent>
+          <Footer/>
       </div>
   );
 }

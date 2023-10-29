@@ -1,0 +1,27 @@
+.booking-container{
+  margin-bottom: 180px;
+}
+
+.or_btn{
+  display: flex;
+  justify-content: center;
+  background: #f5914f;
+  text-align: center;
+  border: none;
+  padding: 15px 50px;
+  text-decoration: none;
+  border-radius: 10px;
+  color: white;
+  transition: background-color 0.3s ease;
+  &:hover {
+    background: #e8803e;
+  }
+}
+
+.pimage{
+  height: 100%;
+  object-fit: cover;
+  min-height: 100vh;
+}
+
+
