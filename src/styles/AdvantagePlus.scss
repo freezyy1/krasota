@@ -1,5 +1,6 @@
 .timer-section{
   min-height: 100vh;
+  margin-bottom: 90px;
   &__title{
     text-align: center;
   }
@@ -30,11 +31,11 @@
  .timer .step:nth-child(odd) {
     transform: translateX(100%);
     border-left: 2px solid lightblue;
-    border-radius: 0 3px 3px 0;
+    border-radius: 10px;
   }
  .timer .step:nth-child(even) {
     border-right: 2px solid lightsalmon;
-    border-radius: 3px 0 0 3px;
+    border-radius: 10px;
   }
  .timer .step > span {
     position: absolute;

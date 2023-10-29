@@ -1,7 +1,7 @@
 import React from 'react';
 import { Parallax } from 'react-parallax';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import parallax from './../images/kot.jpg';
+import parallax from './../images/anon.jpg';
 import './../styles/booking.scss';
 //dd
 const Booking = () => {
@@ -52,7 +52,7 @@ const Booking = () => {
                                     href="https://t.me/your-telegram-link"
                                     target="_blank"
                                     rel="noopener noreferrer"
-                                    className="or_btn fs-4"
+                                    className="or_btn fs-3"
                                     style={{ ...textStyle }}
                                 >
                                     Записаться в Telegram

@@ -35,7 +35,7 @@ function Works() {
 
     return (
         <section className="carousel">
-            <div className="container" style={{ marginTop: '180px'}}>
+            <div className="container">
                 <h1 className="display-4 fw-medium" style={{ marginBottom: '50px', textAlign:"center"}}>Примеры наших работ</h1>
                 <div className="carousel__box">
                     {mockImage.map((elm, index) => {
