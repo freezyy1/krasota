@@ -1,19 +1,15 @@
 import React from 'react';
 import { Parallax } from 'react-parallax';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import parallax from './../images/anon.jpg';
+import parallax from './../images/kot.jpg';
 import './../styles/booking.scss';
-//dd
+
 const Booking = () => {
     const containerStyle = {
         height: '560px',
         display: 'flex',
         alignItems: 'center',
         justifyContent: 'center',
-    };
-
-    const overlayStyle = {
-        background: 'rgba(107, 107, 107, 0.53)',
     };
 
     const textStyle = {
@@ -29,6 +25,7 @@ const Booking = () => {
                     style={containerStyle}
                     bgImageAlt="Parallax Image"
                     bgClassName = "pimage"
+
                     renderLayer={(percentage) => (
                         <div
                             style={{
@@ -52,7 +49,7 @@ const Booking = () => {
                                     href="https://t.me/your-telegram-link"
                                     target="_blank"
                                     rel="noopener noreferrer"
-                                    className="or_btn fs-3"
+                                    className="or_btn fs-4"
                                     style={{ ...textStyle }}
                                 >
                                     Записаться в Telegram
