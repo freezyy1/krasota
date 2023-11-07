@@ -1,6 +1,6 @@
 .mart{
   margin-top: 180px;
-  margin-bottom: 180px;
+  margin-bottom: 90px;
 }
 
 @media (max-width: 767px) {
@@ -8,3 +8,17 @@
     text-align: center;
   }
 }
+
+/* Define the initial state for elements */
+.animate-from-top {
+  opacity: 0;
+  transform: translateY(-20px); /* Move the element 20px up */
+  transition: opacity 0.5s, transform 0.5s;
+}
+
+/* Define the animation for the "show" state */
+.animate-from-top.show {
+  opacity: 1;
+  transform: translateY(0); /* Reset the position */
+}
+

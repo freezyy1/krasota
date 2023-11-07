@@ -1,10 +1,10 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import kot from "./../images/kot.jpg";
 import './../styles/services.scss';
 
 const Services = () => {
-    const img = kot
+    const img = kot;
     const services = [
         {
             id: 1,
@@ -22,7 +22,7 @@ const Services = () => {
             id: 3,
             title: "Услуга 3",
             description: "Описание услуги 3",
-            image:img,
+            image: img,
         },
         {
             id: 4,
@@ -43,14 +43,28 @@ const Services = () => {
             image: img,
         },
     ];
+
+    useEffect(() => {
+        const delay = 500; // Adjust this delay as needed (in milliseconds)
+
+        services.forEach((service, index) => {
+            setTimeout(() => {
+                const element = document.querySelector(`.service-${service.id}`);
+                if (element) {
+                    element.classList.add('show');
+                }
+            }, delay * index);
+        });
+    }, []);
+
     return (
-        <div>
+        <div className="mainn">
             <section className="container text-center mrg">
                 <h1 className="our_servs display-4 fw-medium">Наши услуги</h1>
-                <div className="row" >
+                <div className="row">
                     {services.map((service) => (
-                        <div key={service.id} className="col-lg-4 col-md-6 mb-4">
-                            <div className="card border-0">
+                        <div key={service.id} className={`col-lg-4 col-md-6 mb-4 service-${service.id} animate-from-top`}>
+                            <div className="card border-0 mainn">
                                 <img
                                     src={service.image}
                                     className="card-img-top mx-auto"

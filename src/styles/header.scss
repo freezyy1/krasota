@@ -1,6 +1,10 @@
+
+
 .header{
   position: absolute;
   width: 100%;
+  opacity: 0; /* Set initial opacity to 0 */
+  transition: opacity 1s; /* Add a transition for opacity */
   &__inner{
     display: grid;
     grid-template-columns: 1fr auto 1fr; /* Левый блок, Центральный блок (логотип), Правый блок */
@@ -168,5 +172,32 @@ $peakopacity:0.7;
     flex-direction: column;
   }
 
+}
 
+
+.header.show {
+  opacity: 1; /* Change opacity to 1 for the "show" state */
+}
+
+/* Add this animation to control the appearance */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.header {
+  animation: fadeIn 1s;
+}
+
+.top__content{
+  animation: fadeIn 1s;
+}
+
+
+.arrows{
+  animation: fadeIn 1s;
 }

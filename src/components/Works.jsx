@@ -36,7 +36,7 @@ function Works() {
     return (
         <section className="carousel">
             <div className="container">
-                <h1 className="display-4 fw-medium" style={{ marginBottom: '50px', textAlign:"center"}}>Примеры наших работ</h1>
+                <h1 className="display-4 fw-medium animate-from-top" style={{ marginBottom: '50px', textAlign:"center"}}>Примеры наших работ</h1>
                 <div className="carousel__box">
                     {mockImage.map((elm, index) => {
                         return (
@@ -45,6 +45,7 @@ function Works() {
                                 onClick={() => openLightbox(index)}
                                 src={elm.src}
                                 alt={elm.alt}
+                                className="imghovers animate-from-top"
                             />
                         );
                     })}

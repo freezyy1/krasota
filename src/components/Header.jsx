@@ -1,8 +1,15 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './../styles/header.scss';
 import logo from './../images/logo.png';
 
 const Header = () => {
+
+    useEffect(() => {
+        const header = document.querySelector('.header');
+        if (header) {
+            header.classList.add('show');
+        }
+    }, []);
     return (
         <>
             <div className="header">
@@ -55,7 +62,7 @@ const Header = () => {
                         <p className="top__text display-3">Красота как искусство.</p>
                         <a href="" className="top__btn fs-3">Онлайн запись</a>
                     </div>
-                    <a href="#feedback"  className="arrows"></a>
+                    <a href="#AboutUs"  className="arrows"></a>
                 </div>
             </section>
         </>

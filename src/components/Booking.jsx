@@ -41,15 +41,15 @@ const Booking = () => {
                     <div className="container">
                         <div className="row">
                             <div className="col-md-6 offset-md-3 text-center booking-content">
-                                <p className="text-center fs-1" style={{ fontSize: '24px', marginBottom: '20px', ...textStyle }}>Онлайн запись</p>
-                                <p className="text-center fs-2 mb-5" style={{ marginBottom: '20px', ...textStyle }}>
+                                <p className="text-center fs-1 animate-from-top" style={{ fontSize: '24px', marginBottom: '20px', ...textStyle }}>Онлайн запись</p>
+                                <p className="text-center fs-2 mb-5 animate-from-top" style={{ marginBottom: '20px', ...textStyle }}>
                                     Запишитесь прямо сейчас и получите возможность выбрать оптимальное для вас время записи
                                 </p>
                                 <a
                                     href="https://t.me/your-telegram-link"
                                     target="_blank"
                                     rel="noopener noreferrer"
-                                    className="or_btn fs-4"
+                                    className="or_btn fs-4 animate-from-top"
                                     style={{ ...textStyle }}
                                 >
                                     Записаться в Telegram

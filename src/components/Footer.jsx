@@ -7,7 +7,7 @@ const Footer = () => {
         <div>
             <footer className="footer">
                 <div className="container htmk">
-                    <div className="footer__inner">
+                    <div className="footer__inner animate-from-top">
                         <h5 className="footer__title fs-4">
                             НАШИ КОНТАКТЫ
                         </h5>
@@ -35,9 +35,9 @@ const Footer = () => {
                         </div>
                     </div>
                 </div>
-                <div className="footer__copyright">
-                    <img src={logo} alt="Logo" className="footer__copyright-logo"/>
-                    <p className="fs-5">Copyright © 2023 by Beauty</p>
+                <div className="footer__copyright ">
+                    <img src={logo} alt="Logo" className="footer__copyright-logo img-fluid animate-from-top"/>
+                    <p className="fs-5 animate-from-top">Copyright © 2023 by Beauty</p>
                 </div>
             </footer>
         </div>

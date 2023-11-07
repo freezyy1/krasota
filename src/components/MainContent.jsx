@@ -11,7 +11,6 @@ function MainContent() {
         <>
             <AboutUs></AboutUs>
             <Services></Services>
-            <Feedback/>
             <Booking></Booking>
             <AdvantagePlus></AdvantagePlus>
             <Works></Works>
