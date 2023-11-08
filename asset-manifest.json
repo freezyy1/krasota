@@ -1,19 +1,23 @@
 {
   "files": {
-    "main.css": "/krasota/static/css/main.77f4f22b.css",
-    "main.js": "/krasota/static/js/main.7d32260c.js",
+    "main.css": "/krasota/static/css/main.8e92f997.css",
+    "main.js": "/krasota/static/js/main.ea6ede25.js",
     "static/js/787.c4e7f8f9.chunk.js": "/krasota/static/js/787.c4e7f8f9.chunk.js",
     "static/media/top.jpg": "/krasota/static/media/top.f82b909f968ae63a7c21.jpg",
     "static/media/kot.jpg": "/krasota/static/media/kot.e419cb46a8bf6a24e950.jpg",
     "static/media/logo.png": "/krasota/static/media/logo.06bd5705d81e41aec250.png",
     "static/media/avatar1.jpg": "/krasota/static/media/avatar1.00dea6f16d14378ed3e1.jpg",
+    "static/media/slick.svg": "/krasota/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/krasota/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/krasota/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/krasota/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/krasota/index.html",
-    "main.77f4f22b.css.map": "/krasota/static/css/main.77f4f22b.css.map",
-    "main.7d32260c.js.map": "/krasota/static/js/main.7d32260c.js.map",
+    "main.8e92f997.css.map": "/krasota/static/css/main.8e92f997.css.map",
+    "main.ea6ede25.js.map": "/krasota/static/js/main.ea6ede25.js.map",
     "787.c4e7f8f9.chunk.js.map": "/krasota/static/js/787.c4e7f8f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.77f4f22b.css",
-    "static/js/main.7d32260c.js"
+    "static/css/main.8e92f997.css",
+    "static/js/main.ea6ede25.js"
   ]
 }
