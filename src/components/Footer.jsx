@@ -35,10 +35,6 @@ const Footer = () => {
                         </div>
                     </div>
                 </div>
-                <div className="footer__copyright ">
-                    <img src={logo} alt="Logo" className="footer__copyright-logo img-fluid animate-from-top"/>
-                    <p className="fs-5 animate-from-top">Copyright © 2023 by Beauty</p>
-                </div>
             </footer>
         </div>
     );

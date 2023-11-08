@@ -22,10 +22,11 @@
   transform: translateY(0); /* Reset the position */
 }
 
-.slick-next:before{
-  color:black;
-}
-
-.slick-prev:before{
-  color:black;
+@media (max-width: 700px) {
+  .csw{
+    width:80%;
+  }
+  .cswq{
+    justify-content: center;
+  }
 }
