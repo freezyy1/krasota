@@ -5,6 +5,7 @@ import {AboutUs} from "./AboutUs";
 import {Services} from "./Services";
 import {Works} from "./Works";
 import {AdvantagePlus} from "./AdvantagePlus";
+import {Yandex} from "./yandex";
 
 function MainContent() {
     return (
@@ -13,6 +14,7 @@ function MainContent() {
             <Services></Services>
             <Booking></Booking>
             <AdvantagePlus></AdvantagePlus>
+            <Yandex></Yandex>
             <Works></Works>
         </>
     );

@@ -8,6 +8,7 @@ const Footer = () => {
             <footer className="footer">
                 <div className="container htmk">
                     <div className="footer__inner animate-from-top">
+
                         <h5 className="footer__title fs-4">
                             НАШИ КОНТАКТЫ
                         </h5>
