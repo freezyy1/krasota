@@ -1,10 +1,18 @@
 {
   "files": {
-    "main.css": "/krasota/static/css/main.a8ffcdb6.css",
-    "main.js": "/krasota/static/js/main.fe613451.js",
+    "main.css": "/krasota/static/css/main.60ef1f6f.css",
+    "main.js": "/krasota/static/js/main.e6438541.js",
     "static/js/787.c4e7f8f9.chunk.js": "/krasota/static/js/787.c4e7f8f9.chunk.js",
-    "static/media/top.jpg": "/krasota/static/media/top.f82b909f968ae63a7c21.jpg",
+    "static/media/booking.jpg": "/krasota/static/media/booking.a09d236bb6a6e89418fe.jpg",
+    "static/media/serv4.jpg": "/krasota/static/media/serv4.82d85a03a7d5d8d81b8a.jpg",
     "static/media/kot.jpg": "/krasota/static/media/kot.e419cb46a8bf6a24e950.jpg",
+    "static/media/about4.jpg": "/krasota/static/media/about4.3aef4d69b18d416a5d2d.jpg",
+    "static/media/about3.jpg": "/krasota/static/media/about3.492f23c6e9bf6ffb99ec.jpg",
+    "static/media/serv1.jpg": "/krasota/static/media/serv1.4673aec26ea1af5611c4.jpg",
+    "static/media/serv3.jpg": "/krasota/static/media/serv3.889cb965703a76cbdf79.jpg",
+    "static/media/about1.jpg": "/krasota/static/media/about1.663ed8217e16575551c6.jpg",
+    "static/media/main.jpg": "/krasota/static/media/main.ae8e2703f4f2ff5f7c13.jpg",
+    "static/media/serv5.jpg": "/krasota/static/media/serv5.b59d8169506dee67ff20.jpg",
     "static/media/logo.png": "/krasota/static/media/logo.06bd5705d81e41aec250.png",
     "static/media/avatar1.jpg": "/krasota/static/media/avatar1.00dea6f16d14378ed3e1.jpg",
     "static/media/slick.svg": "/krasota/static/media/slick.2630a3e3eab21c607e21.svg",
@@ -12,12 +20,12 @@
     "static/media/slick.ttf": "/krasota/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/krasota/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/krasota/index.html",
-    "main.a8ffcdb6.css.map": "/krasota/static/css/main.a8ffcdb6.css.map",
-    "main.fe613451.js.map": "/krasota/static/js/main.fe613451.js.map",
+    "main.60ef1f6f.css.map": "/krasota/static/css/main.60ef1f6f.css.map",
+    "main.e6438541.js.map": "/krasota/static/js/main.e6438541.js.map",
     "787.c4e7f8f9.chunk.js.map": "/krasota/static/js/787.c4e7f8f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a8ffcdb6.css",
-    "static/js/main.fe613451.js"
+    "static/css/main.60ef1f6f.css",
+    "static/js/main.e6438541.js"
   ]
 }
