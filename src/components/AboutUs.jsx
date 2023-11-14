@@ -2,7 +2,10 @@ import React, { useEffect } from 'react';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
-import kot from './../images/kot.jpg';
+import img1 from '../images/about1.jpg';
+import img2 from '../images/booking.jpg';
+import img3 from '../images/about3.jpg';
+import img4 from '../images/about4.jpg';
 import './../styles/aboutUs.scss';
 
 const AboutUs = () => {
@@ -42,10 +45,10 @@ const AboutUs = () => {
                 </div>
                 <div className="col-md-6 csw">
                     <Slider {...settings}>
-                            <img src={kot} alt="Image1" className="img-fluid" />
-                            <img src={kot} alt="Image2" className="img-fluid" />
-                            <img src={kot} alt="Image3" className="img-fluid" />
-                            <img src={kot} alt="Image4" className="img-fluid" />
+                            <img src={img1} alt="Image1" className="img-fluid" />
+                            <img src={img2} alt="Image2" className="img-fluid" />
+                            <img src={img3} alt="Image3" className="img-fluid" />
+                            <img src={img4} alt="Image4" className="img-fluid" />
                     </Slider>
                 </div>
             </div>

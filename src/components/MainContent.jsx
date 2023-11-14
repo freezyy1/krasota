@@ -1,6 +1,6 @@
 import React from 'react';
 import {Booking} from './Booking';
-import {Feedback} from "./Feedback";
+
 import {AboutUs} from "./AboutUs";
 import {Services} from "./Services";
 import {Works} from "./Works";

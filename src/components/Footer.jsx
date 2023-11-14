@@ -5,7 +5,7 @@ import logo from './../images/logo.png';
 const Footer = () => {
     return (
         <div>
-            <footer className="footer">
+            <footer className="footer" id="Footer">
                 <div className="container htmk">
                     <div className="footer__inner animate-from-top">
 

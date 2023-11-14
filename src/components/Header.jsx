@@ -18,13 +18,13 @@ const Header = () => {
                         <nav className="menu">
                             <ul className="menu__list">
                                 <li className="menu__list-item">
-                                    <a href="https://t.me/your-telegram-link" className="menu__list-link fs-3">О нас</a>
+                                    <a href="#AboutUs" className="menu__list-link fs-3">О нас</a>
                                 </li>
                                 <li className="menu__list-item">
-                                    <a href="https://t.me/your-telegram-link" className="menu__list-link fs-3">Услуги</a>
+                                    <a href="#Services" className="menu__list-link fs-3">Услуги</a>
                                 </li>
                                 <li className="menu__list-item">
-                                    <a href="https://t.me/your-telegram-link" className="menu__list-link fs-3">Контакты</a>
+                                    <a href="#Footer" className="menu__list-link fs-3">Контакты</a>
                                 </li>
                             </ul>
                         </nav>
@@ -58,7 +58,7 @@ const Header = () => {
             <section className="top">
                 <div className="container">
                     <div className="top__content">
-                        <h1 className="top__title display-1 text-align-center">Art-Beauty Satyukova</h1>
+                        <h1 className="top__title display-1 text-align-center">Art-Beauty 19/06</h1>
                         <p className="top__text display-3">Красота как искусство.</p>
                         <a href="" className="top__btn fs-3">Онлайн запись</a>
 
