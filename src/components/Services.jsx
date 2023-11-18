@@ -19,7 +19,7 @@ const Services = () => {
         {
             id: 1,
             title: "Чистка лица ",
-            description: "5000р.",
+            description: "3000р.",
             image: img1,
         },
         {
