@@ -24,13 +24,13 @@ const Services = () => {
         },
         {
             id: 2,
-            title: "Энзимный пилинг",
+            title: "Ультразвуковая чистка",
             description: "1500р.",
             image: img2,
         },
         {
             id: 3,
-            title: "Биофито Пилинг",
+            title: "Энзимный Пилинг",
             description: "2000р.",
             image: img3,
         },
@@ -42,7 +42,7 @@ const Services = () => {
         },
         {
             id: 5,
-            title: "УЗ чистка лица",
+            title: "Биофито пилинг",
             description: "2500р.",
             image: img5,
         },
