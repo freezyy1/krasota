@@ -19,13 +19,13 @@ const Services = () => {
         {
             id: 1,
             title: "Чистка лица ",
-            description: "5000р",
+            description: "5000р.",
             image: img1,
         },
         {
             id: 2,
             title: "Энзимный пилинг",
-            description: "1500р",
+            description: "1500р.",
             image: img2,
         },
         {
