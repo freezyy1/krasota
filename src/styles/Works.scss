@@ -2,7 +2,7 @@
   transition: transform 0.3s;
   cursor: pointer;
   &:hover {
-    transform: scale(1.1);
+    transform: scale(1.05);
   }
 }
 
@@ -14,7 +14,7 @@
   background-color: #F5F5F5;
   &__box{
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(2,1fr);
     grid-template-rows: repeat(2, 1fr);
     grid-gap: 30px 35px;
   }

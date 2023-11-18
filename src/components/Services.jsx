@@ -1,11 +1,11 @@
 import React, { useEffect } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import serv1 from "./../images/serv1.jpg";
-import serv2 from "../images/kot.jpg";
+import serv4 from "../images/serv4.jpg";
 import serv3 from "./../images/serv3.jpg";
-import serv4 from "./../images/serv4.jpg";
+import serv2 from "../images/serv2.jpg";
 import serv5 from "./../images/serv5.jpg";
-import serv6 from "../images/kot.jpg";
+import serv6 from "../images/serv6.jpg";
 import './../styles/services.scss';
 
 const Services = () => {
@@ -18,38 +18,38 @@ const Services = () => {
     const services = [
         {
             id: 1,
-            title: "Услуга 1",
-            description: "Описание услуги 1",
+            title: "Чистка лица ",
+            description: "5000р",
             image: img1,
         },
         {
             id: 2,
-            title: "Услуга 2",
-            description: "Описание услуги 2",
+            title: "Энзимный пилинг",
+            description: "1500р",
             image: img2,
         },
         {
             id: 3,
-            title: "Услуга 3",
-            description: "Описание услуги 3",
+            title: "Биофито Пилинг",
+            description: "2000р.",
             image: img3,
         },
         {
             id: 4,
-            title: "Услуга 4",
-            description: "Описание услуги 4",
+            title: "Лифтинг и сияние",
+            description: "4000р.",
             image: img4,
         },
         {
             id: 5,
-            title: "Услуга 5",
-            description: "Описание услуги 5",
+            title: "УЗ чистка лица",
+            description: "2500р.",
             image: img5,
         },
         {
             id: 6,
-            title: "Услуга 6",
-            description: "Описание услуги 6",
+            title: "Альгинатная маска",
+            description: "1000р.",
             image: img6,
         },
     ];

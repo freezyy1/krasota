@@ -1,7 +1,7 @@
 import React from 'react';
 import { Parallax } from 'react-parallax';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import parallax from './../images/booking.jpg';
+import parallax from '../images/booking.jpg';
 import './../styles/booking.scss';
 
 const Booking = () => {
