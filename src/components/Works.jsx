@@ -2,7 +2,6 @@ import React from "react";
 import './../styles/Works.scss';
 import Lightbox from "yet-another-react-lightbox";
 import "yet-another-react-lightbox/styles.css";
-import work1 from "../images/work1.jpg"
 import work2 from "../images/work2.jpg"
 import work3 from "../images/work3.jpg"
 import work4 from "../images/work4.jpg"

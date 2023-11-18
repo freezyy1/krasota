@@ -1,5 +1,5 @@
 .timer-section{
-  min-height: 100vh;
+  margin-bottom: 180px;
   &__title{
     text-align: center;
   }
@@ -89,5 +89,12 @@
   .timer-section .timer .step span {
     left: 50% !important;
     transform: translateX(-50%);
+  }
+}
+
+
+@media (max-width: 700px) {
+  .timer-section{
+    margin-bottom: 90px;
   }
 }

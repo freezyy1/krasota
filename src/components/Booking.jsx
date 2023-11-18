@@ -46,9 +46,7 @@ const Booking = () => {
                                     Запишитесь прямо сейчас и получите возможность выбрать оптимальное для вас время записи
                                 </p>
                                 <a
-                                    href="https://t.me/your-telegram-link"
-                                    target="_blank"
-                                    rel="noopener noreferrer"
+                                    href="https://t.me/svetasatyukova"
                                     className="or_btn fs-4 animate-from-top"
                                     style={{ ...textStyle }}
                                 >
